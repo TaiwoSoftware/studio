@@ -30,9 +30,62 @@ li{
     width: 50%;
     margin-bottom: 3rem;
 }
-h3{
+.headerThree{
     color: white;
     font-weight: 100;
     font-size: 4.8rem;
     text-transform: uppercase;
+}
+
+.img{
+    position: relative;
+    margin-top:4rem ;
+    padding: 4rem;
+}
+
+.leader{
+    background-color: white;
+    position: absolute;
+    top: 55rem;
+    left: 40rem;
+    width: 40%;
+    padding: 5rem 5rem;
+   
+}
+
+.leaderHeader{
+    font-weight: 100;
+    font-size: 3rem;
+    color: hsl(0, 0%, 41%);
+}
+
+.leader p{
+    width: 27rem;
+    margin-top:3rem;
+    color: hsl(0, 0%, 55%);
+}
+
+.span{
+    margin-bottom: 30rem;
+}
+
+.gridDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gridDiv h3{
+    margin-left: 4rem;
+    font-weight: 100;
+    font-size: 3rem;
+}
+.gridDiv button {
+    margin-right: 5.3rem;
+    padding: 0 4rem;
+    background-color: transparent;
+}
+
+.row{
+    margin-left: 4rem;
+    margin-top: 3rem;
 }

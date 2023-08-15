@@ -10,7 +10,7 @@ function Header() {
             <Navigation />
         </div>
         <div className='headerDiv'>
-            <h3>Immersive experiences that deliver </h3>
+            <h3 className='headerThree'>Immersive experiences that deliver </h3>
         </div>
     </header>
 }
