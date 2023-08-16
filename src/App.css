@@ -70,6 +70,7 @@ li{
 }
 
 .gridDiv{
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -80,7 +81,7 @@ li{
     font-size: 3rem;
 }
 .gridDiv button {
-    margin-right: 5.3rem;
+    margin-right: 4.3rem;
     padding: 0 4rem;
     background-color: transparent;
 }
@@ -88,4 +89,27 @@ li{
 .row{
     margin-left: 4rem;
     margin-top: 3rem;
+    margin-right: -1px;
+    margin-bottom: 2rem;
+}
+/* .row img{
+    width: 100%;
+} */
+.col{
+    float: left;
+    padding-right:1px ;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+}
+
+.col-xs-4{
+    width: 25%;
+}
+.fix{
+    clear: both;
+}
+
+footer{
+    padding: 2rem 4rem;
+    background-color: black;
 }
