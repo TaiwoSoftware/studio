@@ -118,3 +118,7 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+
+.socialMediaIcons {
+    margin-left: .5rem;
+}
