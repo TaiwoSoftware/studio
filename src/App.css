@@ -113,3 +113,8 @@ footer{
     padding: 2rem 4rem;
     background-color: black;
 }
+
+.flex-logo {
+    display: flex;
+    justify-content: space-between;
+}
