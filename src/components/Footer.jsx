@@ -5,6 +5,11 @@ import facebook from './icon-facebook.svg';
 import twitter from './icon-twitter.svg';
 import pinterest from './icon-pinterest.svg';
 import instagram from './icon-instagram.svg';
+/**
+ * Renders a footer section with a logo and social media icons.
+ * 
+ * @returns {JSX.Element} The rendered footer section.
+ */
 function Footer() {
   return (
       <footer>
